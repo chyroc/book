@@ -1,21 +1,22 @@
-# gitbook 使用简答记载
+# gitbook 使用记录
 
 ## 命令
 
 安装
 
-```shell
+```text
 npm install -g gitbook-cli
 ```
 
 本地预览
 
-```shell
+```text
 gitbook serve
 ```
 
 编译结果
 
-```
+```text
 gitbook build [书籍路径] [输出路径]
 ```
+
