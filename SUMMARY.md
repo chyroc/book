@@ -11,7 +11,12 @@
 
 ## 读书笔记 <a id="reading-notes"></a>
 
-* [编写高质量代码：改善Python程序的91个建议](reading-notes/book-the-zen-of-python/README.md)
+* [《Redis 设计与实现》](reading-notes/redis-design-and-implementation/README.md)
+  * [字符串](reading-notes/redis-design-and-implementation/string.md)
+  * [列表](reading-notes/redis-design-and-implementation/list.md)
+  * [字典](reading-notes/redis-design-and-implementation/dict.md)
+  * [跳表](reading-notes/redis-design-and-implementation/skip-list.md)
+* [《编写高质量代码：改善Python程序的91个建议》](reading-notes/book-the-zen-of-python/README.md)
   * [函数的参数传值还是传引用](reading-notes/book-the-zen-of-python/han-shu-de-can-shu-chuan-zhi-hai-shi-chuan-yin-yong.md)
 
 ## 数据库 <a id="database"></a>
