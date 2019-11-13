@@ -1,5 +1,14 @@
 # graphviz 画图
 
+
+
+
+
+|  |  |
+| :--- | :--- |
+| shape=box |  ![](../.gitbook/assets/graphviz-shape-box.svg)  |
+|  |  |
+
 * [https://itopic.org/graphviz.html](https://itopic.org/graphviz.html)
 * [https://www.cnblogs.com/billnote/p/4043267.html](https://www.cnblogs.com/billnote/p/4043267.html)
 * [https://www.yuque.com/wangdd/blog/llkmi5](https://www.yuque.com/wangdd/blog/llkmi5)
