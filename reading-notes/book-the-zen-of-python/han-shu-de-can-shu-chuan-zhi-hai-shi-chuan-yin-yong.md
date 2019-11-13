@@ -102,7 +102,7 @@ Out[20]: [1, 2, 3, 4, 5, 6]
 要理解这个问题，首先需要先理解 python 的对象的概念，以及对象的可变不可变。
 {% endhint %}
 
-### python 对象的可变和不可变
+### python 对象
 
 > 可变：mutable
 >
@@ -122,11 +122,9 @@ Out[20]: [1, 2, 3, 4, 5, 6]
 | dict |  | ✅ |  |
 | set |  | ✅ |  |
 
-对象 object
+#### 在 python 内部，所有的数据都是一个 `对象（object）`。
 
-在 python 内部，所有的数据都是一个 `对象（object）`。
-
-object 有几个函数可以操作
+#### object 有几个函数可以操作
 
 * id\(o\)
   * 返回一个 object 的唯一数字 id
@@ -138,9 +136,73 @@ object 有几个函数可以操作
 * type\(o\)
   * 返回一个 object 的类型
 
+#### object 操作
+
+1. 将 `10` 赋值给 `x`
+
+![y = 10](https://cdn.nlark.com/yuque/__graphviz/579ec1790f041c672935145ccc5452ee.svg)
+
+2. 然后将 `x` 赋值给 `y`
+
+![](https://cdn.nlark.com/yuque/__graphviz/48bc84a2bb3467f8fb91000015a02838.svg)
+
+{% hint style="info" %}
+这个时候，`x` 和 `y` 都是引用了同一个 `object(int: 10)`
+{% endhint %}
+
+3. 然后将 `y` 加上 `10`
+
+![y += 10](https://cdn.nlark.com/yuque/__graphviz/1665d3c3600152a84c56e964e73a1032.svg)
+
+{% hint style="info" %}
+`int` `object` 是不可变的，所以需要创建一个新的 `object`，类型为 `int`，值为 `20`，并且让 `y` 引用这个 `object`
+{% endhint %}
+
+4. 将 `x` 设置为一个可变 object 列表
+
+![x = \[1, 2\]](https://cdn.nlark.com/yuque/__graphviz/0262a6ddfbdaecb8761d60484ff9e317.svg)
+
+5. 将 `y` 设置为 `x`
+
+![y = x](https://cdn.nlark.com/yuque/__graphviz/e8c4f04b217c2fd202a138b9c0c440b4.svg)
+
+{% hint style="info" %}
+x 和 y 都引用了一个 list object
+{% endhint %}
+
+6. `y` append 一个数据
+
+![y.append\(3\)](https://cdn.nlark.com/yuque/__graphviz/e5c49b40390873bc30053b5c9be92da4.svg)
+
+{% hint style="info" %}
+因为 list object 是可变的，所以 append 操作会直接修改这个 object 本身
+
+x 和 y 仍然同时引用了这个 object
+{% endhint %}
+
+7. 将一个新的列表赋值给 `y`
+
+![y = \[4, 5\]](https://cdn.nlark.com/yuque/__graphviz/d1d09f3dc07dc5bd558702280e03442b.svg)
+
+{% hint style="info" %}
+虽然列表 object 是可变的，但是直接赋值操作不是操作列表。
+
+y 会引用一个新创建的类别 object。
+{% endhint %}
 
 
 
+
+
+
+
+
+
+### 参考
+
+* [《编写高质量代码：改善Python程序的91个建议 建议31：记住函数传参既不是传值也不是传引用》](https://weread.qq.com/web/reader/a773170597d8e93668ebfcfk3f131c022583d0efb2c4298)
+* [Mutable vs Immutable Objects in Python](https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747)
+* [本文插图来自语雀](https://www.yuque.com/chenyunpeng-zkr3i/xedeha/hc4mq1)
 
 
 
