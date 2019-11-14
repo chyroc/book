@@ -13,7 +13,7 @@
 
 * [《Redis 设计与实现》](reading-notes/redis-design-and-implementation/README.md)
   * [字符串](reading-notes/redis-design-and-implementation/string.md)
-  * [列表](reading-notes/redis-design-and-implementation/list.md)
+  * [链表](reading-notes/redis-design-and-implementation/linked-list.md)
   * [字典](reading-notes/redis-design-and-implementation/dict.md)
   * [跳表](reading-notes/redis-design-and-implementation/skip-list.md)
 * [《编写高质量代码：改善Python程序的91个建议》](reading-notes/book-the-zen-of-python/README.md)

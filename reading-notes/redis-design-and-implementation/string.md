@@ -10,7 +10,7 @@ SDS 的全称是：simple dynamic string
 * free，记录还剩下的数据的长度
 * buf，字符数据存储处，以 `\0` 结尾
 
-
+[下图的在线链接点这里](https://dreampuf.github.io/GraphvizOnline/#digraph%20G%20%7B%0Anode%20%5Bshape%3Drecord%5D%0Anode1%20%5Blabel%3D%22%3Cf1%3E%20len%20%7C%20%3Cf2%3E%20free%20%7C%20%3Cf3%3E%20buf%22%5D%0Anode1%3Af1%20-%3E%20len%20%5Blabel%3D%22int%22%5D%0Anode1%3Af2%20-%3E%20free%20%5Blabel%3D%22int%22%5D%0Anode1%3Af3%20-%3E%20buf%20%5Blabel%3D%22%5B%5Dchar%22%5D%0A%0Alen%20%5Bshape%3Dcircle%20label%3D%225%22%5D%0Afree%20%5Bshape%3Dcircle%20label%3D%223%22%5D%0Abuf%20%5Blabel%3D%22'h'%20%7C%20'e'%20%7C%20'l'%20%7C%20'l'%20%7C%20o%20%7C%20'%5C%5C0'%20%7C%20%7C%20%7C%20%22%5D%0A%7D)
 
 ```text
 digraph G {
