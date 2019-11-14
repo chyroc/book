@@ -5,9 +5,9 @@
 ## 文档写作 <a id="documents"></a>
 
 * [中文文档规范](documents/zhong-wen-wen-dang-gui-fan.md)
-* [gitbook 使用记录](documents/gitbook.md)
+* [写作技巧](documents/help.md)
 * [Swagger 使用例子](documents/swagger-shi-yong-li-zi.md)
-* [graphviz 画图](documents/graphviz-hua-tu.md)
+* [Graphviz 画图](documents/graphviz-hua-tu.md)
 
 ## 读书笔记 <a id="reading-notes"></a>
 
