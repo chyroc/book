@@ -30,5 +30,5 @@
 
 ## 随想 <a id="anything"></a>
 
-* [page-2](anything/page-2.md)
+* [随想](anything/anything.md)
 

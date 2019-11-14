@@ -35,3 +35,11 @@ echo ${save_file} | pbcopy
 然后使用 <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>V</kbd> 即可保存图片到文件夹中，然后在 Markdown 中插入图片的超链接。
 
 ![](../.gitbook/assets/1573732914501.png)
+
+### 如何在 vscode 中快速的插入当前时间
+
+- 首先安装插件 [Insert Date String](https://marketplace.visualstudio.com/items?itemName=jsynowiec.vscode-insertdatestring)
+
+然后使用快捷键即可：<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>
+
+`2019-11-14 20:37:56`
