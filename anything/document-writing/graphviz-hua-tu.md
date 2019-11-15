@@ -6,7 +6,7 @@
 
 |  |  |
 | :--- | :--- |
-| shape=box |  ![](../.gitbook/assets/graphviz-shape-box.svg)  |
+| shape=box |  ![](../../.gitbook/assets/graphviz-shape-box.svg)  |
 |  |  |
 
 * [https://itopic.org/graphviz.html](https://itopic.org/graphviz.html)

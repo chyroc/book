@@ -13,7 +13,7 @@ echo "file is save to file: ${save_file}"
 echo ${save_file} | pbcopy
 ```
 
-![](../.gitbook/assets/68a1dff8-1080-4da0-b8fa-7bc315c48411.png)
+![](../../.gitbook/assets/68a1dff8-1080-4da0-b8fa-7bc315c48411.png)
 
 ## 如何在 vscode 编辑器中快速保存剪贴板的图片
 
@@ -33,7 +33,7 @@ echo ${save_file} | pbcopy
 
 然后使用 Command+Option+V 即可保存图片到文件夹中，然后在 Markdown 中插入图片的超链接。
 
-![](../.gitbook/assets/1573732914501.png)
+![](../../.gitbook/assets/1573732914501.png)
 
 ## 如何在 vscode 中快速的插入当前时间
 
