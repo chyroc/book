@@ -14,6 +14,8 @@
 
 在线阅读：[http://redisbook.com/](http://redisbook.com/)
 
+微信读书：[https://weread.qq.com/web/reader/3e332720597db08878af6a8k8c6311012d966206ff9a020](https://weread.qq.com/web/reader/3e332720597db08878af6a8k8c6311012d966206ff9a020)
+
 插图制作：[https://dreampuf.github.io/GraphvizOnline/](https://dreampuf.github.io/GraphvizOnline/)
 
 
