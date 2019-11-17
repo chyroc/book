@@ -24,15 +24,15 @@ redisObject.type 可以是以下的类型之一
 
 使用 `object encoding` 命令可以查看编码
 
-### 字符串对象 REDIS_STRING
+### 字符串对象 REDIS\_STRING
 
 * 如果这个字符串对象是一个数字，并且可以用 long 来表示，那么对应的是：
-  * type = REDIS_STRING
-  * encoding = REDIS_ENCODING_INT
+  * type = REDIS\_STRING
+  * encoding = REDIS\_ENCODING\_INT
 * 如果这个字符串是一个字符串值，并且长度大于等于 32 字节，那么：
-  * type = REDIS_STRING
-  * encoding = REDIS_ENCODING_EMBSTR
+  * type = REDIS\_STRING
+  * encoding = REDIS\_ENCODING\_EMBSTR
 * 如果这个字符串是一个字符串值，并且长度大于 32 字节，那么：
-  * type = REDIS_STRING
-  * encoding = REDIS_ENCODING_RAW
+  * type = REDIS\_STRING
+  * encoding = REDIS\_ENCODING\_RAW
 

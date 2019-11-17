@@ -23,6 +23,7 @@
   * [Graphviz 画图](anything/document-writing/graphviz-hua-tu.md)
   * [Swagger 使用例子](anything/document-writing/swagger-shi-yong-li-zi.md)
   * [中文文档规范](anything/document-writing/chinese-document-specification.md)
+* [youtube 视频](anything/youtube-shi-pin.md)
 * [随想](anything/anything.md)
 
 ## 计算机
